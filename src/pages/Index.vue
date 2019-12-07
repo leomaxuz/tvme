@@ -17,9 +17,9 @@
 		
 		<q-item-section side top>
           <q-item-label caption>{{ task.dueDate }}</q-item-label>
-          <div class="text-orange">
-            <q-icon name="star" />
-          </div>
+          <q-item-label caption>
+		   <small>{{ task.dueTime }}</small>
+		  </q-item-label>
         </q-item-section>
 		
       </q-item>
